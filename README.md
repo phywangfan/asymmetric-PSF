@@ -1,7 +1,7 @@
 # asymmetric-PSF
 This repository is a MATLAB-based open source code corresponding to the manuscript tilted by "Asymmetric point-spread function in the tilted plane". 
 
-There are two main programs for implementing designed points and a 3D object, named by 'main_aPSF_points.m' and 'main_aPS_pointCGHF.m', respectively.
+There are two main programs for implementing designed points and a 3D object, named by 'main_aPSF_points.m' and 'main_aPS_pointCGH.m', respectively.
 
 The program 'main_aPSF_points.m' is performed to generate Fig. 2 and Fig. 4 by changing parameters in the code.
 The program 'main_aPS_pointCGHF.m' is performed to generate Fig. 6.
