@@ -1,12 +1,12 @@
-cff-version: 1.0
-message: "If you use this software, please cite it as below."
-authors:
-- family-names: "Wang"
-  given-names: "Fan"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-  
-title: "Asymmetric point-spread function in the tilted plane"
-version: 1.0
-doi: 10.5281/zenodo.1234
-date-released: 2024-10-2
-url: "https://github.com/phywangfan/asymmetric-PSF.git"
+
+
+
+@software{FanWang_aPSF_Software_2024,
+  author = {Fan Wang},
+  // doi = {10.5281/zenodo.1234},
+  month = {10},
+  title = {{Asymmetric point-spread function in the tilted plane}},
+  url = {https://github.com/phywangfan/asymmetric-PSF.git},
+  version = {1.0},
+  year = {2.1}
+}
