@@ -66,7 +66,7 @@ dx = R_g2l(1)*x(mask) + R_g2l(2)*y(mask);
 dy = R_g2l(4)*x(mask) + R_g2l(5)*y(mask);
 dz = R_g2l(7)*x(mask) + R_g2l(8)*y(mask);
 r = sqrt((x0 - dx).^2 + (y0 - dy).^2 + (z0 - dz).^2)*(-1)^(z0<0);
-aPSF = exp(1i*k * (r + R_g2l(7)*x(mask) + R_g2l(8)*y(mask)))./(1j*wlen*r); % proposed aPSF 
+aPSF = exp(1i*k * (r + R_g2l(7)*x(mask) + R_g2l(8)*y(mask) - z0))./(1j*wlen*r); % proposed aPSF 
 wf_loc(index) = wf_loc(index) + aPSF; 
 
 % imwrite(aPSF_phs,['.\aPSF_image\','phi_y=',num2str(rad2deg(alpha_y)),' phi_x=',num2str(rad2deg(alpha_y)),'.bmp'])
